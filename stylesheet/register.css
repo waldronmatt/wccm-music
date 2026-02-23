@@ -1,0 +1,295 @@
+/*
+   
+   Filename: register.css
+
+   Styles for the register form.
+
+*/
+
+
+fieldset {
+	display: block;
+	background-color: rgb(255, 246, 205);
+	border: 2px solid rgb(233, 69, 0);
+	clear: both;
+	margin: 15px 15px 15px 15px;
+	width: 45%;
+	}
+
+#custInfo {
+	display: block;
+  float: left;
+}
+
+#orderInfo {
+  display: block;
+    position: relative;
+    bottom: 210px;
+    left: 420px;
+	 
+}
+
+#prefInfo {
+  display: block;
+    position: relative;
+    bottom: 440px;
+    right: 0px;
+}
+
+#billInfo {
+  display: block;
+    position: relative;
+    bottom: 440px;
+    left: 0px;
+}
+
+#surveyInfo {
+	display: block;
+    position: relative;
+    bottom: 840px;
+    left: 420px;
+	
+	
+}
+
+legend {
+  display: block;
+  background-color: rgb(192, 192, 192);
+  color: black;
+  padding: 3px 0px;
+  width: 100%;
+  text-indent: 3px;
+  float: left;
+}
+
+label {
+  clear: left;
+  display: block;
+  float: left;
+  font-size: 0.9em;
+  margin: 7px 4% 7px 5px;
+  width: 40%;
+  
+}
+
+input {
+  display: block;
+  float: left;
+  font-size: 0.9em;
+  margin: 7px 0px;
+  width: 40%;
+}
+
+select {
+  display: block;
+  float: left;
+  font-size: 0.9em;
+  margin: 5px 0px;
+}
+
+#cardtype, #magtype #shiptype {
+  display: block;
+  float: left;
+  font-size: 0.9em;
+  margin: 5px 0px;
+}
+
+
+fieldset.tshirt, fieldset.hoodie {
+  display: inline;
+ font-size: 1.1em;
+  position: relative;
+    bottom: 0px;
+    right: 10px;
+  border-width: 0px;
+}
+
+fieldset.tshirt label, fieldset.hoodie label {
+  display: inline;
+  float: none;
+  margin: 10px 10px 10px 10px;
+  width: 30px;
+}
+
+fieldset.tshirt input, fieldset.hoodie input {
+  display: inline;
+  float: left;
+  margin: 0px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+
+#pref1, #pref2 {
+   display: block;
+   width: 100%;
+   padding-left: -15px;
+   text-indent: 15px;
+}
+
+#pref1 input, #pref2 input, #merch1 input, #merch2 input {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+
+
+input[type="submit"] {
+ clear: bottom;
+   display: block;
+    position: relative;
+    bottom: 830px;
+    left: 300px;
+  height: 30px;
+  width: 200px;
+}
+
+input[type="reset"] {
+ 
+   display: block;
+    position: relative;
+    bottom: 780px;
+    left: 100px;
+  height: 30px;
+  width: 200px;
+}
+
+textarea {
+  display: block;
+  float: left;
+  height: 140px;
+  margin: 0 0 10px 0;
+  width: 50%;
+}
+
+input:focus, select:focus, textarea:focus {
+  background-color: rgb(220, 255, 220);
+}
+
+input#state {
+  width: 50px;
+}
+
+input#zip, input#csc {
+  width: 75px;
+}
+
+input#donate {
+  width: 130px;
+}
+
+input#id {
+  width: 100px;
+}
+
+input#composer {
+  width: 160px;
+}
+
+
+
+label.sliderLabel {
+	display: block;
+  clear: none;
+  font-size: 0.9em;
+  margin: 20px 0px;
+  text-align: center;
+  width: 10px;
+}
+
+#service {
+	display: block;
+  clear: none;
+  font-size: 0.9em;
+  margin: 30px 0px;
+  text-align: center;
+  width: 150px;
+}
+
+input[type="range"] {
+  display: block;
+width: 150px;
+}
+
+#listenTime {
+  width: 50px;
+}
+
+
+
+#infoSurvey {
+  display: block;
+  float: left;
+  font-size: 0.9em;
+  margin: 5px 0px;
+}
+
+fieldset.optionGroup {
+    display: inline;
+ font-size: 1em;
+  position: relative;
+    bottom: 0px;
+    right: 25px;
+  border-width: 0px;
+}
+
+fieldset.optionGroup label {
+   display: inline;
+  float: none;
+  margin: 0px 0px 10px 30px;
+  width: 30px;
+}
+
+
+fieldset.optionGroup input {
+   display: inline;
+  float: none;
+  margin: 2px;
+  width: 20px;
+  margin-right: 0px;
+}
+
+
+#site_content {
+height: 1650px;
+}
+
+
+div#totalPrice
+{   
+	 position: relative;
+    bottom: 27px;
+    left: 190px;
+    font-weight:bold;
+	width:120px;
+	height:20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

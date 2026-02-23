@@ -1,0 +1,56 @@
+
+
+
+table.schedule {
+  border: 10px ridge #0D1D71;
+  border-collapse: collapse;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+}
+
+table.schedule th, table,schedule td {
+  border: 1px solid gray;
+ 
+}
+
+
+
+
+table.schedule thead {
+   background-color: #324EE6;
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+table.schedule thead tr {
+  height: 35px;
+}
+
+table.schedule tbody {
+ align: top;
+}
+
+table.schedule tbody tr {
+  height: 25px;
+}
+
+table.schedule tbody td {
+  padding: 7px;
+  vertical-align: top;
+  background-color: #FFFAF0;
+}
+
+table.schedule caption {
+  caption-side: bottom;
+  text-align: right;
+}
+
+table.schedule col.firstCol {
+  background-color: rgb(255, 255, 192);
+  width: 7%;
+}
+
+table.schedule col.daysCols {
+  width: 10%;
+}

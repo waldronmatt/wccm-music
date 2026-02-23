@@ -1,0 +1,85 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 10
+   Tutorial Case
+   Filename: mplstyles.css
+
+   This file contains styles used in the mpl.htm file.
+
+*/
+
+/* Display HTML5 structural elements as blocks */
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+
+/* Set the default page element styles */
+
+
+
+
+
+/* Body Styles */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+   margin: 0px auto;
+   width: 1000px;
+}
+
+
+
+section {
+ margin-left: auto;
+    margin-right: auto;
+}
+
+section h1 {
+   color: #5B854F; 
+   font-size: 24px;
+   letter-spacing: 5px; 
+   margin-bottom: 10px; 
+   margin-top: 10px; 
+}
+
+table {
+   border: 5px solid #ACC8A4; 
+   font-size: 14px; 
+   margin-top: 20px; 
+   margin-bottom: 20px;
+   width: 700px;
+}
+
+th {
+   background-color:  #5B854F; 
+   color: white; 
+   font-weight: normal;
+   letter-spacing: 2px;
+   padding: 7px;
+}
+
+td {
+	border: 3px solid #ACC8A4;
+   vertical-align: top; 
+   background-color: #FFFAF0;
+   padding: 5px;
+padding: 10px;
+}
+
+td a {
+   text-decoration: none; 
+}
+
+td a:hover {
+   color: blue;
+   text-decoration: none; 
+}
+
+
+
+
+
+
